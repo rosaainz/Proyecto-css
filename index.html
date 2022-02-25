@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo Web</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Murecho&display=swap" rel="stylesheet"> 
+    <link rel="preload" href="css/style.css" as="style"> 
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Rosa Sainz <span>Desarrollo Web</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#"> Inicio </a>
+            <a href="#"> Sobre Mi </a>
+            <a href="#"> Proyectos </a>
+            <a href="#"> Contacto </a>
+    </div>
+
+    </nav>
+
+    <!-- Imagen con texto principal-->
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Te ayudo a mostrar tu trabajo</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#87a1ab" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+              </svg>
+            <p> Estado de México</p>
+        
+            <a class="boton" href="#"> Contactar </a>
+        </div>
+    </section>
+
+    <main class="contenedor sombra">
+        <h2>Mis servicios</h2>
+
+        <!-- Servicios-->
+        <div class="servicios">
+        <section class="servicio">
+            <h3>Desarrollo Web</h3>
+            <div class="iconos">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-javascript" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                <path d="M7.5 8h3v8l-2 -1" />
+                <path d="M16.5 8h-2.5a0.5 .5 0 0 0 -.5 .5v3a0.5 .5 0 0 0 .5 .5h1.423a0.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5" />
+            </svg>
+            </div>
+            <p>Una de mis pasiones es el Desarrollo Web, me encanta innovar y mostrar ideas, negocios, etc. en un sitio web. </p>
+        </section>
+
+        <section class="servicio">
+            <h3>Marketing digital</h3>
+            <div class="iconos">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building-store" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="3" y1="21" x2="21" y2="21" />
+                <path d="M3 7v1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1h-18l2 -4h14l2 4" />
+                <line x1="5" y1="21" x2="5" y2="10.85" />
+                <line x1="19" y1="21" x2="19" y2="10.85" />
+                <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" />
+            </svg>
+            </div>
+            <p>Considero que lo más importante de un proyecto es saber llegar a las personas correctas. Te ayudo a conectar con las personas adecuadas.</p>
+        </section>
+
+        <section class="servicio">
+            <h3>E-Commerce</h3>
+            <div class="iconos">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-credit-card" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="3" y="5" width="18" height="14" rx="3" />
+                <line x1="3" y1="10" x2="21" y2="10" />
+                <line x1="7" y1="15" x2="7.01" y2="15" />
+                <line x1="11" y1="15" x2="13" y2="15" />
+              </svg>
+            </div>
+
+            <div>
+                <p>Las ventas por internet es una de mis grandes pasiones, ya que conecta las dos anteriores a una estrategia para obtener grandes ventas.</p>
+            </div>
+        </section>
+        </div> <!--.servicios-->
+    
+
+    <section>
+        <h2>Contacto</h2>
+
+        <!-- Formulario -->
+        <form class="formulario">
+            <fieldset>
+                <legend> Contáctame llenando los campos</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input class ="input-text" type="text" placeholder="Tu nombre">
+                    </div>
+                
+                    <div class="campo">
+                        <label>Teléfono</label>
+                        <input class="input-text" type="tel" placeholder="Tu teléfono">
+                    </div>
+                
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input class="input-text" type="email" placeholder="Mail">
+                    </div>
+                
+                    <div class="campo">
+                        <label>Mensaje:</label>
+                        <textarea class="input-text" ></textarea>
+                    </div>
+                </div> <!--contenedor-campos-->
+                
+                <div class=" alinear-derecha flex">
+                    <!--<input type="submit" value="Enviar">   -->
+                    <button class="boton w-mq" type="submit">Enviar</button>
+                </div>
+                
+            </fieldset>
+        </form>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados. Rosa Sainz Freelancer</p>
+    </footer>
+    
+</body>
+</html>
